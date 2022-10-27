@@ -1,0 +1,97 @@
+html
+{
+	height: 100%;
+}
+
+body
+{
+	background-color: rgba(255,69,0,0.8);
+	min-height: 100%;
+}
+
+.body
+{
+	text-align: center;
+	padding-top: 180px;
+	
+}
+
+.frmLogin
+{
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;	
+	padding: 5%;
+	background-color: white;
+	border-radius: 10px;
+}
+
+table
+{
+	width: 100%;
+}
+
+.tdinput
+{
+	padding: 3%;
+}
+
+.tieude
+{
+	font-family: Myriad Pro;
+	font-size: 30px;
+	font-weight: bold;
+	padding-bottom: 5%;
+}
+
+.user
+{
+	font-family: Tahoma;
+	height: 30px;
+	width: 80%;
+	border-radius: 5px;
+	border: 1px solid grey;
+	padding:0.5%;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	font-size: 16px;
+}
+
+.pass
+{
+	font-family: Tahoma;
+	height: 30px;
+	width: 80%;
+	border-radius: 5px;
+	border: 1px solid grey;
+	padding:0.5%;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	font-size: 16px;
+}
+
+.tdxacnhan
+{
+	padding-top: 5%;
+	text-align: right;
+}
+
+.btnxacnhan
+{
+	padding-top: 0.1em;
+	margin-right: 2.9em;
+	font-size: 16px;
+	height: 40px;
+	width: 30%;
+	background-color: red;
+	color: white;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+
+}
+
+.btnxacnhan:hover
+{
+	background-color: FireBrick;
+}

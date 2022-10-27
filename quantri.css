@@ -1,0 +1,118 @@
+.body
+{
+	padding-top: 80px;
+}
+
+.bodytl
+{
+	padding-top: 80px;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.bodyct
+{
+	padding-top: 80px;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 30px;
+}
+
+.bodyct i
+{
+	font-size: 20px;
+}
+
+.body th
+{
+	height: 30px;
+}
+
+.content
+{
+	height: 597px;
+}
+
+table
+{
+	text-align: center;
+}
+
+.stt
+{
+	width: 50px;
+}
+
+.theloai
+{
+	width: 80px;
+}
+
+.theloaitl
+{
+	width: 150px;
+}
+
+.anh
+{
+	width: 250px;
+}
+
+.tieude
+{
+	width: 250px;
+	padding: 5px;
+	text-align: justify;
+	vertical-align: top;
+}
+
+.tomtat
+{
+	width: 400px;
+	padding: 5px;
+	text-align: justify;
+	vertical-align: top;
+}
+
+.tacgia
+{
+	width: 100px;
+}
+
+.ngaydang
+{
+	width: 80px;
+}
+
+.nguoitao
+{
+	width: 80px;
+}
+
+.nguoisua
+{
+	width: 80px;
+}
+
+.quantri
+{
+	width: 100px;
+}
+
+.phantrang
+{
+	margin-top: 10px;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.phantrang button
+{
+	margin-left: 5px;
+}
+
+
+
