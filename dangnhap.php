@@ -11,6 +11,7 @@
 	<title>Đăng nhập</title>
 	<link rel="stylesheet" type="text/css" href="dangnhap.css">
 	<script type="text/javascript">
+		//Them ghi chu
 		function confirmLogin()
 		{
 			var username = document.frmLogin.username.value;
