@@ -6,6 +6,7 @@
 	}
 	else
 	{
+		//Them ghi chu vao file quanlichitiet
 		include 'config.php';
 		
 		if (isset($_GET['id']))
