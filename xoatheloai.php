@@ -12,6 +12,7 @@
 
 		if (isset($_GET['id']))
 		{
+			//Kiem tra id cua the loai
 			$id = $_GET['id'];
 			$check = "SELECT * FROM tintuc WHERE matheloai = '$id'";
 			if  (mysqli_num_rows(mysqli_query($conn,$check)) > 0)
