@@ -1,5 +1,6 @@
 <?php
 	session_start();
-	unset($_SESSION['user_nhom3']);
-	header("Location: /Nhom_3/dangnhap.php");
+	//sua doi ten file va dia chi luu tru file 
+	unset($_SESSION['user_nhom2']);
+	header("Location: /Nhom_2/dangnhap.php");
 ?>
