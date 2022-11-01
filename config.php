@@ -1,5 +1,5 @@
 <?php
-//Sua thong so cau hinh
+//Sua thong so cau hinh lan 1
 	$servername = "localhost";
 	$username = "root";
 	$password = "";
