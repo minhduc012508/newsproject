@@ -1,4 +1,5 @@
 <?php
+//Sua thong so cau hinh
 	$servername = "localhost";
 	$username = "root";
 	$password = "";
