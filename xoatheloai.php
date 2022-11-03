@@ -2,7 +2,7 @@
 	session_start();
 	if (!isset($_SESSION['user_nhom3']))
 	{
-		header("Location: /Nhom_3/dangnhap.php");
+		header("Location: /newsproject/dangnhap.php");
 	}	  
 	else
 	{
@@ -25,11 +25,11 @@
 				mysqli_query($conn,$sql); 
 				setcookie("delete","true",time()+1);
 			}
-			header("Location: /Nhom_3/quanlytheloai.php");
+			header("Location: /newsproject/quanlytheloai.php");
 		}
 		else
 		{
-			header("Location: /Nhom_3/quanlytheloai.php");
+			header("Location: /newsproject/quanlytheloai.php");
 		}
 	}
 ?>

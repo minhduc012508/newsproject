@@ -2,7 +2,7 @@
 	session_start();
 	if (!(isset($_SESSION['user_nhom3'])))
 	{
-		header("Location: /Nhom_3/dangnhap.php");
+		header("Location: /newsproject/dangnhap.php");
 	}
 	else
 	{
@@ -71,7 +71,7 @@
 		{
 			if (confirm("Bạn chắc chắn muốn xóa thể loại này?"))
 			{
-				link = "/Nhom_3/xoatheloai.php?id=" + id;
+				link = "/newsproject/xoatheloai.php?id=" + id;
 				window.location = link;
 			}
 			else

@@ -2,7 +2,7 @@
 	session_start();
 	if (!isset($_SESSION['user_nhom3']))
 	{
-		header("Location: /Nhom_3/dangnhap.php");
+		header("Location: /newsproject/dangnhap.php");
 	}
 
 	include 'config.php';
@@ -15,12 +15,12 @@
 		$count = mysqli_num_rows($result2);
 		if ($count == 0) 
 		{
-			header("Location: /Nhom_3/dangnhap.php");
+			header("Location: /newsproject/dangnhap.php");
 		}
 	}
 	else
 	{
-		header("Location: /Nhom_3/dangnhap.php");
+		header("Location: /newsproject/dangnhap.php");
 	}	
 ?>
 <!DOCTYPE html>
@@ -36,7 +36,7 @@
 		{
 			if (confirm("Bạn muốn đăng xuất?"))
 			{
-				window.location = "/Nhom_3/dangxuat.php";
+				window.location = "/newsproject/dangxuat.php";
 			}
 			else
 			{
@@ -129,7 +129,7 @@
  				$sql = "UPDATE theloai SET tentheloai = '$theloai' WHERE matheloai = '$id'";
 				mysqli_query($conn,$sql);
 				setcookie("edit","true",time()+1);
-				header("Location: /Nhom_3/quanlytheloai.php");
+				header("Location: /newsproject/quanlytheloai.php");
  			}
 		}
 	}

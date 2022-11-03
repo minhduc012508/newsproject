@@ -3,7 +3,7 @@
 	session_start();
 	if (!(isset($_SESSION['user_nhom3'])))
 	{
-		header("Location: /Nhom_3/dangnhap.php");
+		header("Location: /newsproject/dangnhap.php");
 	}  
 	
 	include 'config.php';
@@ -16,7 +16,7 @@
 		$count = mysqli_num_rows($result2);
 		if ($count == 0) 
 		{
-			header("Location: /Nhom_3/dangnhap.php");
+			header("Location: /newsproject/dangnhap.php");
 		}
 		else
 		{
@@ -26,7 +26,7 @@
 	}
 	else
 	{
-		header("Location: /Nhom_3/dangnhap.php");
+		header("Location: /newsproject/dangnhap.php");
 	}	
 ?>
 <!DOCTYPE html>
@@ -44,7 +44,7 @@
 		{
 			if (confirm("Bạn muốn đăng xuất?"))
 			{
-				window.location = "/Nhom_3/dangxuat.php";
+				window.location = "/newsproject/dangxuat.php";
 			}
 			else
 			{
@@ -199,7 +199,7 @@
 				$sql = "UPDATE tintuc SET matheloai='$theloai',tieude='$tieude',tomtat='$tomtat',chitiet='$chitiet',tacgia='$tacgia',ngaydang='$ngaydang',nguoisua = '$nguoisua' WHERE id = '$id'";
 				mysqli_query($conn,$sql);
 				setcookie("edit","true",time()+1);
-				header("Location: /Nhom_3/quanlytintuc.php");
+				header("Location: /newsproject/quanlytintuc.php");
 			}	
 		}
 	}
