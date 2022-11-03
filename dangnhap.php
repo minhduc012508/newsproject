@@ -2,7 +2,7 @@
 	session_start(); 
 	if (isset($_SESSION['user_nhom3']))
 	{
-		header("Location: /Nhom_3/quanlytintuc.php");
+		header("Location: /newsproject/quanlytintuc.php");
 	}
 ?>
 <!DOCTYPE html>
