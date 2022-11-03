@@ -67,7 +67,7 @@
 			}
 			if (isset($_POST['password']))
 			{
-				$password = md5($_POST['password']);
+				$password = $_POST['password'];
 			}
 		}
 		if (isset($_POST['login']) && $_POST['login'] == "true")
@@ -79,7 +79,7 @@
 			if ($count > 0)
 			{
 				$_SESSION['user_nhom3'] = $username;
-				header("Location: /Nhom_3/quanlytintuc.php");
+				header("Location: /newsproject/quanlytintuc.php");
 			}
 			else
 			{

@@ -2,7 +2,7 @@
 	session_start();
 	if (!isset($_SESSION['user_nhom3']))
 	{
-		header("Location: /Nhom_3/dangnhap.php");
+		header("Location: /newsproject/dangnhap.php");
 	}
 
 	include 'config.php';
@@ -20,7 +20,7 @@
 		{
 			if (confirm("Bạn muốn đăng xuất?"))
 			{
-				window.location = "/Nhom_3/dangxuat.php";
+				window.location = "/newsproject/dangxuat.php";
 			}
 			else
 			{
@@ -110,7 +110,7 @@
  				$sql = "INSERT INTO theloai(tentheloai) VALUES ('$theloai')";
 				mysqli_query($conn,$sql);
 				setcookie("add","true",time()+1);
-				header("Location: /Nhom_3/quanlytheloai.php");
+				header("Location: /newsproject/quanlytheloai.php");
  			}
 		}
 	}

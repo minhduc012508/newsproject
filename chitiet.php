@@ -7,7 +7,7 @@
 	}
 	else
 	{
-		header("Location: /Nhom_3/");
+		header("Location: /newsproject/");
 	}
 	
 	$sql = "SELECT * FROM tintuc INNER JOIN theloai ON tintuc.matheloai = theloai.matheloai WHERE id = $id";
@@ -17,7 +17,7 @@
 
 	if ($count == 0)
 	{
-		header("Location: /Nhom_3/");
+		header("Location: /newsproject/");
 	}
 
 	$sqltheloai = "SELECT * FROM theloai";

@@ -2,7 +2,7 @@
 	session_start();
 	if (!isset($_SESSION['user_nhom3']))
 	{
-		header("Location: /Nhom_3/dangnhap.php");
+		header("Location: /newsproject/dangnhap.php");
 	}
 	else
 	{
@@ -16,7 +16,7 @@
 		}
 		else
 		{
-			header("Location: /Nhom_3/dangnhap.php");
+			header("Location: /newsproject/dangnhap.php");
 		}	
 	}
 ?>
@@ -44,7 +44,7 @@
 		{
 			if (confirm("Bạn chắc chắn muốn xóa bài viết này?"))
 			{
-				link = "/Nhom_3/xoatintuc.php?id=" + id;
+				link = "/newsproject/xoatintuc.php?id=" + id;
 				window.location = link;
 			}
 			else
