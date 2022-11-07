@@ -162,9 +162,9 @@
 				$anh = $path.$name;
 				$sql = "INSERT INTO tintuc(matheloai, anh, tieude, tomtat, chitiet, tacgia, ngaydang, nguoitao) VALUES ('$theloai','$anh','$tieude','$tomtat','$chitiet','$tacgia','$ngaydang','$nguoitao')";
 				mysqli_query($conn,$sql);
-				move_uploaded_file($tmp_name,$anh);
-				echo $tmp_name."   ".$anh;
-				setcookie("add","true",time()+1);
+				// move_uploaded_file($tmp_name,$anh);
+				// echo $tmp_name."   ".$anh;
+				// setcookie("add","true",time()+1);
 				header("Location: /newsproject/quanlytintuc.php");
 			}
 			else
