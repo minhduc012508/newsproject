@@ -157,16 +157,15 @@
 			if($_FILES['anh']['type'] == "image/jpeg" || $_FILES['anh']['type'] == "image/png" || $_FILES['anh']['type'] == "image/gif")
 			{
 				$path = "image/";
-				$tmp_name = $_FILES['anh']['tmp_name'];
-				$name = $_FILES['anh']['name'];
-				$anh = $path.$name;
-				$sql = "INSERT INTO tintuc(matheloai, anh, tieude, tomtat, chitiet, tacgia, ngaydang, nguoitao) VALUES ('$theloai','$anh','$tieude','$tomtat','$chitiet','$tacgia','$ngaydang','$nguoitao')";
-				mysqli_query($conn,$sql);
-				
-				// move_uploaded_file($tmp_name,$anh);
-				// echo $tmp_name."   ".$anh;
-				// setcookie("add","true",time()+1);
-				header("Location: /newsproject/quanlytintuc.php");
+                $tmp_name = $_FILES['anh']['tmp_name'];
+                $name = $_FILES['anh']['name'];
+                $anh = $path.$name;
+                move_uploaded_file($tmp_name,$anh);
+                $sql = "INSERT INTO tintuc(matheloai, anh, tieude, tomtat, chitiet, tacgia, ngaydang, nguoitao) VALUES ('$theloai','$anh','$tieude','$tomtat','$chitiet','$tacgia','$ngaydang','$nguoitao')";
+                mysqli_query($conn,$sql);
+                echo '<script>alert("Them tin tuc thanh cong")</script>';
+                setcookie("add","true",time()+1);
+                header("Location: /newsproject/quanlytintuc.php");
 			}
 			else
 			{
