@@ -1,0 +1,52 @@
+Project: Online News Portal using PHP/MySQLi
+
+About
+
+The Online News Portal is a simple PHP/MySQLi CMS (Content Management System) project that for an online news article webiste. This system has 2 side of user interface which is one fo administrator user and one for the readers. The admin user manages all the data in the system and this includes the contents of the news. The news articles are organized by the news categories in this system. Talking about how it works, first, the admin must populate the list of categories. After that, the admin can now create a new article and the news articles requires a cover photo of the news to be displayed on the website when listing the published news and the admin can also add photos in the content editor. Then, the admin will decide if he/she would like to publish the article right after saving the content or save it first for later posting to the public by turning on/off the Publish button. After the admin published the news article, the news content will be automatically enlisted to the published news on website which is the readers side. The admin user can dynamically update or change the about content of the website.
+
+Features
+
+Admin Side
+
+Login Page
+The page where the admin user submits their system credentials to access the admin side of the system.
+Home Page
+The page where the admin user is being redirected by default after logging into the system.
+Category Page
+The page where the admin manages the list of news categories.
+Bài viết Page
+The page where the admin creates a new news article.
+Posts List Page
+The page where all the created news articles are listed and managed.
+About Page
+The page where the admin manages the "About Us" content of the website.
+User List Page
+The page where the system users are listed and navigate to edit, view, and delete users.
+
+
+Readers/Website Visitors
+Home/News Page
+The default page where visitors will be redirected when browsing the online news portal website.
+Categories Panel
+The panel/card on the right side of the website page that will help the visitor to filter the news articles by category.
+Recent News Panel
+The list of most recent published news articles/contents. The visitor will be redirected to a new window when selecting a news article in this panel.
+
+The Online News Portal was developed using HTML, PHP/MySQLi, CSS, JavaScript (jQuery/Ajax), and Bootstrap for the design. The source code is fully functional and easy to modify or enhance. Follow the instruction below to have an actual experience using this simple project.
+
+How to Run
+Download the source code and extract the zip file.
+Download or set up any local web server that runs PHP script.
+Open the web-server database and create a new database name it news_portal_db.
+Import the SQL file located in the database folder of the source code.
+Copy and paste the source code to the location where your local web server accessing your local projects. Example for XAMPP('C:\xampp\htdocs')
+Open a web browser and browse the project. E.g [http://localhost/online-news-portal] for the visitor's side and [http://localhost/online-news-portal/admin] for the admin side.
+Default Admin Access
+Email: admin@admin.com
+Password: admin123
+
+I hope this simple Online News Portal will help you with what you are looking for, feel free to download and modify the source code.
+
+Explore more on this website for more source codes and tutorials.
+
+Enjoy!
