@@ -15,7 +15,7 @@
         break;
       }
       case 'new_post':{
-        $title = "về bờ ";
+        $title = "về bờ git123121 ";
         break;
       }
       case 'post_list':{
