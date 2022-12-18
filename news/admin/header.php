@@ -7,7 +7,7 @@
   ob_start();
   //$title = isset($_GET['page']) ? ucwords(str_replace("_", ' ', $_GET['page'])) : "Thống kê";
   $title;
-  if(!isset($_GET['page'])) $title = "Thống kê";
+  if(!isset($_GET['page'])) $title = "Thống kê stg";
   else{
     switch($_GET['page']){
       case 'category_list':{
