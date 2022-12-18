@@ -11,11 +11,11 @@
   else{
     switch($_GET['page']){
       case 'category_list':{
-        $title = "Thể loại";
+        $title = "Pháp vovo địch";
         break;
       }
       case 'new_post':{
-        $title = "Thêm bài đăng";
+        $title = "về bờ ";
         break;
       }
       case 'post_list':{
