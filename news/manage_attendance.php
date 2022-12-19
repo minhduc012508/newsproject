@@ -33,7 +33,7 @@ foreach($event as $k => $v){
 					</div>	
 					<div class="card-body">
 						<?php if($status == 2): ?>
-							<div class="alert alert-info"><i class="fa fa-info-circle"></i> Website tin tức nhóm 2 hiện đang bảo trì. </div>
+							<div class="alert alert-info"><i class="fa fa-info-circle"></i> Website tin tức nhóm 2 hiện đang bảo trì :)). </div>
 						<?php endif; ?>
 						<table class="table table-bordered">
 							<thead>
